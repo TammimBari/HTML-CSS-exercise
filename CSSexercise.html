@@ -1,0 +1,80 @@
+/*Complete this CSS file (it is already linked to the HTML page). 
+Try to create an appealing design, keeping these principles and tips in mind:
+  1.Create a clear visual hierarchy (including styling your menu to clearly indicate what page is active).
+  2.Make sure the content doesn't feel cramped or too long (use margin, padding, width)
+  3.Try adding appeal to your design with good typographic choices (try using Google fonts)
+  4.Use em (rather than px) whenever possible
+  5.Adjust your design based on the screen size (try to create a responsive menu by using @media-queries)
+You may add some Javascript, but you don't have to.
+*/
+body {
+    background-color: ghostwhite;
+    line-height: 2.5em;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    text-align: center;
+ }
+
+#wrapper{
+    max-width: 100%;
+    margin: 0;
+}
+
+.menu{
+    margin: 0;
+    background-color: #00542a;
+    box-shadow: 0em 0.5em 1em 0em #808080;
+  }
+
+.menu li{
+    display: inline-flex;
+    height: 0.2em; 
+}
+
+nav a{
+    font-family:'verdena';
+    font-size: 1em;
+    padding: 8px;
+    color: Black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #99cfb4;
+    color: Red;
+    padding: 8px;
+}
+
+nav a.active {
+  background-color: #99cfb4;
+  color: color;
+}
+
+h1{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color:black;
+    font-family:'Brandon Grotesque';
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#content{
+    margin-bottom: 10em;
+    margin-top: 2em;
+    margin-left: 15em;
+    margin-right: 15em;
+    text-align: left;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    }
